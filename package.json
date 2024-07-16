@@ -1,0 +1,59 @@
+{
+  "name": "telegram-react-auth-button",
+  "version": "0.3.0",
+  "private": false,
+  "sideEffects": false,
+  "homepage": "https://github.com/panovps/telegram-react-auth-button",
+  "description": "React button for authentication in Telegram Bots",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE",
+    "package.json"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "Pavel Panov",
+    "email": "panovps@gmail.com"
+  },
+  "keywords": [
+    "react",
+    "reactjs",
+    "telegram",
+    "button"
+  ],
+  "source": "src/index.tsx",
+  "main": "dist/index.cjs",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "vite build",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit -p tsconfig.typecheck.json"
+  },
+  "peerDependencies": {
+    "react": ">=16 || >=17 || >= 18",
+    "react-dom": ">=16 || >=17 || >= 18"
+  },
+  "devDependencies": {
+    "terser": "^5.17.1",
+    "@types/react": "^18.2.64",
+    "@types/react-dom": "^18.2.21",
+    "@typescript-eslint/eslint-plugin": "^5.59.2",
+    "@typescript-eslint/parser": "^5.59.2",
+    "@vitejs/plugin-react": "^4.0.0",
+    "eslint": "^8.39.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "typescript": "^5.0.4",
+    "vite": "^4.3.5",
+    "vite-plugin-dts": "^2.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/panovps/telegram-react-auth-button.git"
+  },
+  "bugs": {
+    "url": "https://github.com/panovps/telegram-react-auth-button/issues"
+  }
+}
